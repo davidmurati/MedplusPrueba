@@ -2,8 +2,7 @@ import { useState, useEffect  } from 'react'
 import "./Servicio.css";
 import Select from 'react-select'
 
-import imgmed1 from '../home/imgmed1.jpg';
-import imgmed12 from '../home/imgmed12.jpg';
+
 import imgmed11 from '../home/imgmed11.jpg';
 import imgmed5 from '../home/imgmed5.jpg';
 
