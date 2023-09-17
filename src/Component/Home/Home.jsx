@@ -6,7 +6,6 @@ import imgmed13 from './imgmed13.jpg';
 import imgmed2 from './imgmed2.jpg';
 import imgmed12 from './imgmed12.jpg';
 import imgmed3 from './imgmed3.jpg';
-import imgmed5 from './imgmed5.jpg';
 import imgmed9 from './imgmed9.png';
 import imgmed6 from './imgmed6.jpg';
 
