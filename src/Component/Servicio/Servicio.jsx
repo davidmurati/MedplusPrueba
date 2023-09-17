@@ -3,8 +3,8 @@ import "./Servicio.css";
 import Select from 'react-select'
 
 
-import imgmed11 from '/imgmed11.jpg';
-import imgmed5 from '/imgmed5.jpg';
+import imgmed11 from './imgmed11.jpg';
+import imgmed5 from './imgmed5.jpg';
 
 
 
