@@ -1,7 +1,7 @@
 import { useState, useEffect  } from 'react'
 import './Login.css';
 
-import imgmed9 from '../home/imgmed9.png';
+import imgmed9 from './imgmed9.png';
 //import { createClient } from '@supabase/supabase-js';
 
   
