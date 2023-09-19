@@ -204,7 +204,7 @@ const Servicio = () => {
             <Select options={options} 
              onChange={(e) => find(e)}/>
 
-             <button className="boton" type="submit">Enviar</button  >
+             <button className="boton" type="submit">Enviar solicitud</button  >
              </div>
 
              

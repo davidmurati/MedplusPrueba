@@ -7,7 +7,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #fcfcfc; /* Agrega el color de fondo */
+    background-color: #f2f2f2; /* Agrega el color de fondo */
     display: flex;
   }
   
@@ -142,7 +142,9 @@
   }
 
   .boton {
-    width: 50%;
+    width: auto;
+    min-width: 40%;
+    
     padding: 10px;
     margin-top: 20px;
     background-color: #cfcfcf;
@@ -150,6 +152,7 @@
   }
 
   .boton[type="submit"]:hover {
+    width: auto;
     padding: 10px;
     margin-top: 20px;
     background-color: #3ce953;
