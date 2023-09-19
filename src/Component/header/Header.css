@@ -2,10 +2,10 @@ nav {
     box-sizing: border-box;
     position: absolute;
     top: 50px;
-    left: 40%;
+    
     display: flex;
     transform: translateY(-50%);
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
     max-width: 992px;
     margin: 0 auto;
