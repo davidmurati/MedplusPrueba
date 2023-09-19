@@ -1,12 +1,13 @@
 import { useState, useEffect  } from 'react'
 import "./Servicio.css";
 import Select from 'react-select'
+import Airtable from 'airtable';
 
 
 import imgmed11 from './imgmed11.jpg';
 import imgmed5 from './imgmed5.jpg';
 
-
+var base = new Airtable({apiKey: 'keya5qgyPsbOfOg9Z'}).base('appxdB6VTyBNOjQJ7');
 
 const Servicio = () => {
 
@@ -32,45 +33,38 @@ const Servicio = () => {
 
     //---------------------------------------------------------
 
-      const PostGoogleSheet = () => {
-        fetch("https://sheetdb.io/api/v1/7cipkax9v91kr", {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify([
+    const PostAirTable = () => {
+
+      base('Table 1').create([
         {
-          Nombre: nombre,
-          Telefono: telefono,
-          Email: email,
-          Pago: option2,
-          Servicio: option
-          
-        },
-    ]),
-    })
-    
-    .then((r) => r.json())
-      .then((data) => {
-        // The response comes here
-        console.log(data);
-      })
-      .catch((error) => {
-        // Errors are reported there
-        console.log(error);
+          "fields": {Nombre: nombre,
+            Telefono: telefono,
+            Email: email,
+            Pago: option2,
+            Servicio: option,
+        }
+
+        }
+      ], function(err, records) {
+        if (err) {
+          console.error(err);
+          return;
+        }
+        records.forEach(function (record) {
+          console.log(record.getId());
+        });
       });
-    
-      };
+
+  };
+
 
     //---------------------------------------------------------
 
     const Enviar = async (event) => {
         //event.preventDefault();
-        //PostGoogleSheet();
 
     if (nombre != "" && email != "" && telefono != "" && option != "" && option2 != "") {
-        PostGoogleSheet();
+        PostAirTable();
     }
 
         try {
@@ -90,7 +84,7 @@ const Servicio = () => {
     const handleSubmit = (event) => {
       event.preventDefault();
       Enviar();
-      alert('hola');
+      //alert('hola');
 
       /*
       if (option==="Domicilio") {
