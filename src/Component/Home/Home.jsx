@@ -32,18 +32,18 @@ const Home = () => {
         <section id="Nosotros">
         <div className='container'>
 
-          <div className="card2">
+          <div className="card">
             <h2>{"Nosotros"}</h2>
             <img src={imgmed12} className="App-logo" alt="logo"/>
-            <div className="card3">
+            <div className="card">
             <h2>{"Quienes somos "}</h2>
             <p>{"Somos una empresa de servicios médicos a domicilio y online comprometida con el bienestar y la comodidad de nuestros pacientes. Nuestro equipo está conformado por profesionales de la salud altamente cualificados y dedicados, que trabajan de manera colaborativa para brindar una atención integral y personalizada."}</p>
             </div>
-            <div className="card3">
+            <div className="card">
             <h2>{"Misión"}</h2>
             <p>{"Nuestra misión es proporcionar servicios médicos integrales y de alta calidad a nuestros pacientes en la comodidad de su hogar, utilizando tecnología de vanguardia para ofrecer atención médica online. Nos esforzamos por brindar diagnósticos precisos, tratamientos efectivos y un enfoque cálido y humano, adaptándonos a las necesidades individuales de cada paciente. Nuestro objetivo es mejorar la calidad de vida de las personas, promoviendo la salud y el bienestar en la comunidad a la que servimos."}</p>
             </div>
-            <div className="card3">
+            <div className="card">
             <h2>{"Visión"}</h2>
             <p>{"Ser reconocidos como líderes en brindar servicios médicos de calidad, accesibles y confiables, tanto a nivel presencial como online, siendo la primera opción para las personas que requieren atención médica personalizada en la comodidad de su hogar."}</p>
             </div>
