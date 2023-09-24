@@ -3,7 +3,7 @@ import "./home.css";
 
 
 import imgmed13 from './imgmed13.jpg';
-import imgmed2 from './imgmed2.jpg';
+
 import imgmed12 from './imgmed12.jpg';
 import imgmed3 from './imgmed3.jpg';
 import imgmed9 from './imgmed9.png';
@@ -57,7 +57,7 @@ const Home = () => {
         <div className='container'>
 
 
-          <div className="card">
+          <div className="card2">
             <img src={imgmed6} className="App-logo1" alt="logo"/>
             <div className="link">
             <a  href="/Servicio"> Atención a domicilio </a>
@@ -67,16 +67,18 @@ const Home = () => {
             
           </div>
 
-          <div className="card">
+          <div className="card2">
             <img src={imgmed13} className="App-logo1" alt="logo"/>
             <div className="link">
             <a  href="/Servicio"> Atención Online </a>
             <p>{"Comunicate con nuestro personal via plataformas digitales para realizar tus consultas médicas"}</p>
             </div>
+
+            
             
           </div>
 
-          <div className="card">
+          <div className="card2">
             <img src={imgmed3} className="App-logo1" alt="logo"/>
             <div className="link">
             <a  href="/Servicio"> Fisioterapia </a>
@@ -86,6 +88,8 @@ const Home = () => {
           </div>
 
           </div>
+
+
         </section>
         
       </main>
