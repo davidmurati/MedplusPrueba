@@ -185,7 +185,8 @@ const Servicio = () => {
              <input  type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
             
-            <div className='cardi5'>
+            <div className='caja'>
+            
             <label>
             Tipo de pago:
             </label>
@@ -197,8 +198,7 @@ const Servicio = () => {
             </label>
             <Select options={options} 
              onChange={(e) => find(e)}/>
-
-             
+            
              </div>
 
              <button className="boton" type="submit">Enviar solicitud</button  >

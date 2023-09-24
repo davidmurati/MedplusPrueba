@@ -65,11 +65,12 @@ const Home = () => {
         
         
         <div className="card3">
-        <h2>{"Servicios"}</h2>
+        
 
-        <div className="container2">
-            
+        <div className="container">
+        
               <div className="card3">
+              
               <img src={imgmed6} className="App-logo1" alt="logo"/>
               <div className="link">
               <a  href="/Servicio"> Atención a domicilio </a>
@@ -78,6 +79,7 @@ const Home = () => {
               </div>
 
               <div className="card3">
+              <h2>{"Servicios"}</h2>
               <img src={imgmed13} className="App-logo1" alt="logo"/>
               <div className="link">
               <a  href="/Servicio"> Atención Online </a>
