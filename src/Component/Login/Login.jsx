@@ -130,7 +130,10 @@ useEffect(() => {
     <form onSubmit={handleSubmit}>
     
     <div className="container">
+      <div className="card5">
         <img src={imgmed9} className="App-logo" alt="logo" />
+        <h1>Mediplus</h1> 
+        </div>
         </div>
 
     <div className="container">

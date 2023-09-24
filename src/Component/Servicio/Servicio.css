@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
   }
 
   body {
@@ -20,6 +24,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 20px;
+
+    align-items: center;
+    align-content: center;
   }
   
   .card2 {
@@ -32,6 +39,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 20px;
+
+    align-items: center;
+    align-content: center;
   }
 
   .card3 {
@@ -44,18 +54,27 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     text-align:center;
     margin-bottom: 20px;
+
+    align-items: center;
+    align-content: center;
   }
 
-  .card4 {
+  .cardi5 {
+    width: auto;
+    
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
+    align-content: center;
+    
+   
     text-align: center;
     margin-bottom: 20px;
+
+    
   }
 
 
@@ -111,6 +130,9 @@
     border-radius: 5px;
     text-align: center;
     margin-bottom: 20px;
+
+    align-items: center;
+    align-content: center;
   }
 
 
@@ -131,18 +153,6 @@
 
   }
 
-  .selector  {
-    padding: 10%;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
-    margin-top: 5px;
-    align-items: center;
-    width: auto;
-    
-    
-  }
 
   .boton {
     width: 200px;

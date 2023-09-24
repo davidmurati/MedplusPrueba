@@ -21,12 +21,17 @@ const Home = () => {
 
     <form onSubmit={handleSubmit}>
     <div>
-      <div className="logo-container">
+      
+      <div className="container">
+      <div className="card3">
         <img src={imgmed9} className="App-logo" alt="logo" />
-        <h1>Mediplus</h1>
+        <h1>Mediplus</h1> 
         </div>
+        </div>
+      
+      
         
-        <main>    
+        <main>   
         <p>Bienvenido a la app de salud Mediplus, estamos para ayudarlo</p>
 
         <section id="Nosotros">
@@ -47,49 +52,51 @@ const Home = () => {
             <h2>{"Visión"}</h2>
             <p>{"Ser reconocidos como líderes en brindar servicios médicos de calidad, accesibles y confiables, tanto a nivel presencial como online, siendo la primera opción para las personas que requieren atención médica personalizada en la comodidad de su hogar."}</p>
             </div>
+
             
           </div>
+          
 
         </div>
         </section>
 
+
         <section id="Serv">
-        <div className='container'>
+        
+        
+        <div className="card3">
+        <h2>{"Servicios"}</h2>
 
+        <div className="container2">
+            
+              <div className="card3">
+              <img src={imgmed6} className="App-logo1" alt="logo"/>
+              <div className="link">
+              <a  href="/Servicio"> Atención a domicilio </a>
+              <p>{"Realizamos consultas, curas y más en la comodidad de tu hogar"}</p>
+              </div>
+              </div>
 
-          <div className="card">
-            <img src={imgmed6} className="App-logo1" alt="logo"/>
-            <div className="link">
-            <a  href="/Servicio"> Atención a domicilio </a>
-            <p>{"Realizamos consultas, curas y más en la comodidad de tu hogar"}</p>
+              <div className="card3">
+              <img src={imgmed13} className="App-logo1" alt="logo"/>
+              <div className="link">
+              <a  href="/Servicio"> Atención Online </a>
+              <p>{"Comunicate con nuestro personal via plataformas digitales para realizar tus consultas médicas"}</p>
+              </div>
+              </div>
+
+              <div className="card3">
+              <img src={imgmed3} className="App-logo1" alt="logo"/>
+              <div className="link">
+              <a  href="/Servicio"> Fisioterapia </a>
+              <p>{"Haz terapias con nuestro personal capacitado para recuperarte de tus lesiones"}</p>
+              </div> 
+              </div>
+
             </div>
+        </div>
 
-            
-          </div>
-
-          <div className="card">
-            <img src={imgmed13} className="App-logo1" alt="logo"/>
-            <div className="link">
-            <a  href="/Servicio"> Atención Online </a>
-            <p>{"Comunicate con nuestro personal via plataformas digitales para realizar tus consultas médicas"}</p>
-            </div>
-
-            
-            
-          </div>
-
-          <div className="card">
-            <img src={imgmed3} className="App-logo1" alt="logo"/>
-            <div className="link">
-            <a  href="/Servicio"> Fisioterapia </a>
-            <p>{"Haz terapias con nuestro personal capacitado para recuperarte de tus lesiones"}</p>
-            </div>
-            
-          </div>
-
-          </div>
-
-
+          
         </section>
         
       </main>

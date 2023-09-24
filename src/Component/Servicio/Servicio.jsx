@@ -185,7 +185,7 @@ const Servicio = () => {
              <input  type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
             
-            <div className='card4'>
+            <div className='cardi5'>
             <label>
             Tipo de pago:
             </label>
