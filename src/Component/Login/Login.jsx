@@ -135,7 +135,7 @@ useEffect(() => {
 
     <div className="container">
 
-    <div className='card2'>
+    <div className='card'>
             <label>
             Correo electrónico:
             </label>

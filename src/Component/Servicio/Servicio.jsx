@@ -165,7 +165,7 @@ const Servicio = () => {
               <img src={imgmed11} className="App-logo" alt="logo"/>
               <div className="card3">
               
-           <div className='card2'>
+           <div className='card3'>
             <label>
             Nombre:
             </label>
@@ -198,8 +198,10 @@ const Servicio = () => {
             <Select options={options} 
              onChange={(e) => find(e)}/>
 
-             <button className="boton" type="submit">Enviar solicitud</button  >
+             
              </div>
+
+             <button className="boton" type="submit">Enviar solicitud</button  >
 
              
 

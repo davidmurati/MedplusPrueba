@@ -25,9 +25,11 @@
   }
   
   .card2 {
-    width: 100%;
-    height: auto;
-    max-width: 800px;
+    width: auto;
+    height: 650px;
+    
+    
+    
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 5px;
