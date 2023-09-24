@@ -16,15 +16,17 @@ nav {
   
   nav a {
     position: relative;
+    
     top:0x;
     width: auto;
+    
     display: table-cell;
     text-align: center;
     color: #333;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 5px 10px;
     transition: 0.2s ease color;
     white-space: nowrap;
     
