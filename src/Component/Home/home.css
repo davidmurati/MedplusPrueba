@@ -26,7 +26,8 @@
   
   .card2 {
     width: auto;
-    height: 650px;
+    height: 1000px;
+    
     
     
     
@@ -69,7 +70,7 @@
 
   .App-logo1 {
     max-width: 100px;
-    height: 50%;
+    height: auto;
     max-height: 200px;
   }
   
