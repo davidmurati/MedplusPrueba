@@ -23,16 +23,18 @@ const Home = () => {
     <div>
       
       <div className="container">
-      <div className="card3">
+      <div className="card">
+       <h1>Mediplus</h1> 
+       <p>Bienvenido a la app de salud Mediplus, estamos para ayudarlo</p>
         <img src={imgmed9} className="App-logo" alt="logo" />
-        <h1>Mediplus</h1> 
+        
         </div>
         </div>
       
       
         
         <main>   
-        <p>Bienvenido a la app de salud Mediplus, estamos para ayudarlo</p>
+
 
         <section id="Nosotros">
         <div className='container'>
@@ -64,7 +66,6 @@ const Home = () => {
         <section id="Serv">
         
         
-        <div className="card3">
         
 
         <div className="container">
@@ -96,7 +97,7 @@ const Home = () => {
               </div>
 
             </div>
-        </div>
+        
 
           
         </section>
