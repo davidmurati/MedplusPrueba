@@ -5,6 +5,12 @@
     align-items: center;
   }
 
+  .container3 {
+    justify-content: space-between;
+    padding-top: 100px;
+    align-items: center;
+  }
+
   .container2 {
     display: flex;
     justify-content: space-between;

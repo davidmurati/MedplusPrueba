@@ -20,19 +20,17 @@ const Home = () => {
   return (
 
     <form onSubmit={handleSubmit}>
-    <div>
       
-      <div className="container">
-      <div className="card">
-       <h1>Mediplus</h1> 
-       <p>Bienvenido a la app de salud Mediplus, estamos para ayudarlo</p>
+        <div className="container3">
+        <h1>Mediplus</h1> 
+        </div>
+
         <img src={imgmed9} className="App-logo" alt="logo" />
-        
-        </div>
-        </div>
+        <p>Bienvenido a la app de salud Mediplus, estamos para ayudarlo</p>
+      
+        <div>
       
       
-        
         <main>   
 
 
@@ -40,6 +38,7 @@ const Home = () => {
         <div className='container'>
 
           <div className="card">
+            
             <h2>{"Nosotros"}</h2>
             <img src={imgmed12} className="App-logo" alt="logo"/>
             <div className="card">
